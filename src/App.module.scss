@@ -1,0 +1,25 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  display: block;
+}
+
+.container {
+  height: 100%;
+  max-width: 665px;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* USERS LIST */
