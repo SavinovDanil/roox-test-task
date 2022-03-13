@@ -43,8 +43,8 @@ function App() {
     <div className={styles.container}>
       <Sidebar sortFunc = {sortFunc} />
       <Routes>
-        <Route path='/' element={<UsersList users = {users} loading={loading}/>}/> 
-        <Route path='/user/:id' element={<ProfileList users = {users} loading={loading}/>}/> 
+        <Route path='' element={<UsersList users = {users} loading={loading}/>}/> 
+        <Route path='user/:id' element={<ProfileList users = {users} loading={loading}/>}/> 
       </Routes>
     </div>
   );
